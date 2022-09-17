@@ -1,0 +1,194 @@
+@font-face{
+    src: url('../fuentes/ChunkFive-Regular.otf');
+    font-family: "Fuente Chunck";
+}
+@font-face{
+    src: url('../fuentes/Montserrat-Regular.otf');
+    font-family: "Montserrat";
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;    /* Modifica los borders para que se ajusten los %  */
+    /* font-family: "Fuente Chunck"; */
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    background-image: url('../imagenes/navegacion.jpg');
+}
+
+#contenedor{
+    /*border: 1px solid black;*/
+    height: 1200px;
+}
+
+header{
+    /*border: 1px solid grey;*/
+    /*background-image: url('../imagenes/banner.png');*/
+    /*height: 100px;*/
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+    float: initial;
+}
+
+h3{
+    font-size: 15px;
+}
+
+nav{
+    margin-top: 25px;
+}
+
+ul{
+    margin-top: 40px;
+}
+
+li{
+    margin-bottom: 70px;
+}
+
+hr{
+    margin-top: 10px;
+}
+
+.espacio{
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.img1{
+    margin-top: 25px;
+    width: 70%;
+    height: 70%;
+}
+.img2{
+    margin-top: -9px;
+    margin-left: -9px;
+    width: 1264px;
+    height: 120px;
+}
+
+.boton{
+        text-decoration: none;
+        color: red;
+        border-width: 1px;
+        padding: 5px;
+        background-color: grey; 
+}
+.boton:hover{
+        background-color: grey;
+        color: red;
+}
+.boton:active{
+        background-color: grey;
+        color:red;
+}
+
+
+.fuente{
+    margin-top:150px;
+}
+.font:link{
+    color:white;
+}
+.font:visited{
+    color:blue;
+}
+.font:hover{
+    color:blue;
+}
+
+.light-font{
+    background-image: url('../imagenes/fondonav.png');
+    margin-top: -10px;
+    margin-left: -38px;
+    width: 1039px;
+    height: 20px;
+    font-size: 12px;
+}
+.migapan{
+    padding-top: 2px;
+    margin-left: 4px;
+    font-family: "Montserrat";
+}
+.migap{
+    padding-top: 2px;
+    margin-left: 10px;
+    font-family: "Montserrat";
+    color:white;
+}
+
+.miga:link{
+    color: lightskyblue;
+}
+.miga:visited{
+    color:lightskyblue;
+}
+.miga:hover{
+    color:lightskyblue;
+}
+
+.listas:link{
+    color: black;
+}
+.listas:visited{
+    color:red;
+}
+
+aside{
+    /*background-color: goldenrod;*/
+    border: 1px solid white;
+    background-image: url('../imagenes/fondonav.png');
+    color:whitesmoke;
+    width: 18%;
+    height: 769px;
+    float: left;
+    text-align: center;
+    /*position: fixed;*/
+    margin-left: -8px;
+    margin-top: -19px;
+}
+
+iframe{
+    margin-top:30px;
+}
+
+main{
+    /*border: 1px solid orange;*/
+    /*background-color: goldenrod;*/
+    width: 80%;
+    float: right;
+    padding: 5px; 
+    margin-top: -25px;
+}
+
+footer{
+    /*border: 1px solid grey;*/
+    background-color: black;
+    color: antiquewhite;
+    clear: both;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    font-size: small;
+    padding-top: 6px;
+    font-family: "Montserrat";
+    font-size: 10px;
+    margin-left: -8px;
+}
+
+a:link{
+    color:white;
+}
+a:visited{
+    color:lightskyblue;
+}
+a:hover{
+    color:goldenrod;
+}
+
